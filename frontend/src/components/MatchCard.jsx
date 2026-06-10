@@ -1,5 +1,5 @@
-// Tarjeta de un partido: fecha, marcador (goles esperados por equipo, o reales si ya se jugó),
-// favorito, barras 1X2 y marcadores más probables. Si ya se jugó, flag de acierto (✓) o fallo (✗).
+// Tarjeta de un partido: fecha, favorito, goles esperados (λ), barras 1X2, marcadores probables y,
+// si ya se jugó, el resultado real con el flag de acierto (✓) o fallo (✗).
 
 import { formatDateTime } from "../lib/format.js";
 
@@ -22,16 +22,6 @@ function Bar({ label, value, color, highlight }) {
   );
 }
 
-// Una fila del "marcador": nombre del equipo (ganador en verde) + su número (goles esperados o reales).
-function TeamRow({ name, value, isWinner }) {
-  return (
-    <div className="flex items-baseline justify-between gap-3">
-      <span className={`font-bold ${isWinner ? "text-emerald-600" : "text-slate-900"}`}>{name}</span>
-      <span className="shrink-0 text-base font-bold tabular-nums text-slate-700">{value}</span>
-    </div>
-  );
-}
-
 export default function MatchCard({ match }) {
   const {
     home,
@@ -45,43 +35,38 @@ export default function MatchCard({ match }) {
     utcDate,
   } = match;
 
-  // Goles reales si ya se jugó (de "3-0"); si no, los goles esperados (λ) del modelo.
-  const [realHome, realAway] = match.played ? match.real_score.split("-") : [null, null];
-  const homeValue = match.played ? realHome : expected_goals.home;
-  const awayValue = match.played ? realAway : expected_goals.away;
-
   return (
     <div className="flex flex-col rounded-2xl border border-slate-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-      {/* Cabecera: fecha + (si jugado) acierto/fallo */}
-      <div className="mb-2 flex items-center justify-between gap-2">
+      {/* Cabecera: fecha + estado/resultado */}
+      <div className="mb-3 flex items-center justify-between gap-2">
         <span className="text-xs font-medium text-slate-400">{formatDateTime(utcDate)}</span>
-        {match.played && (
+        {match.played ? (
           <span
             className={`rounded-full px-2.5 py-0.5 text-xs font-bold ${
               match.correct ? "bg-emerald-100 text-emerald-700" : "bg-rose-100 text-rose-600"
             }`}
           >
-            {match.correct ? "✓ Acerté" : "✗ Fallé"}
+            {match.correct ? "✓ Acerté" : "✗ Fallé"} · {match.real_score}
+          </span>
+        ) : (
+          <span
+            className="rounded-full bg-sky-50 px-2.5 py-0.5 text-xs font-medium text-sky-600"
+            title="Media de goles que el modelo espera de cada equipo (en el orden de los nombres). No es el marcador predicho."
+          >
+            Goles esp. {expected_goals.home}–{expected_goals.away}
           </span>
         )}
       </div>
 
-      {/* Marcador: cada equipo con su número (ganador en verde) */}
-      <div className="space-y-1">
-        <TeamRow name={home} value={homeValue} isWinner={winner === "home"} />
-        <TeamRow name={away} value={awayValue} isWinner={winner === "away"} />
+      {/* Equipos: nombre en negro, ganador previsto en verde */}
+      <div className="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-[15px] font-bold">
+        <span className={winner === "home" ? "text-emerald-600" : "text-slate-900"}>{home}</span>
+        <span className="text-xs font-normal text-slate-300">vs</span>
+        <span className={winner === "away" ? "text-emerald-600" : "text-slate-900"}>{away}</span>
       </div>
 
-      {/* Qué significan esos números */}
-      <p
-        className="mt-1 text-[11px] text-slate-400"
-        title="Media de goles que el modelo espera de cada equipo. No es el marcador predicho."
-      >
-        {match.played ? "Resultado final" : "Goles esperados por equipo (media del modelo)"}
-      </p>
-
       {/* Favorito + marcador probable */}
-      <div className="mt-3 flex flex-wrap items-center gap-x-1.5 text-sm">
+      <div className="mb-3 flex flex-wrap items-center gap-x-1.5 text-sm">
         <span className="text-amber-500">⭐</span>
         <span className="font-semibold text-slate-700">{favorite}</span>
         <span className="text-slate-400">· probable</span>
@@ -89,7 +74,7 @@ export default function MatchCard({ match }) {
       </div>
 
       {/* Barras 1X2 */}
-      <div className="mt-3 space-y-1.5">
+      <div className="space-y-1.5">
         <Bar label={home} value={outcome.home} color="bg-sky-500" highlight={winner === "home"} />
         <Bar label="Empate" value={outcome.draw} color="bg-amber-400" highlight={winner === "draw"} />
         <Bar label={away} value={outcome.away} color="bg-rose-500" highlight={winner === "away"} />
