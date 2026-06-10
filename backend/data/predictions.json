@@ -1,0 +1,3671 @@
+{
+  "computed_date": "2026-06-10",
+  "generated_at": "2026-06-10T16:08:26.030513+00:00",
+  "phase": "pretrained",
+  "matches_played": 0,
+  "teams_learned": 0,
+  "accuracy": {
+    "correct": 0,
+    "evaluated": 0,
+    "pct": null
+  },
+  "rounds": [
+    {
+      "stage": "GROUP_STAGE",
+      "stage_label": "Fase de grupos",
+      "matchday": 1,
+      "key": "GROUP_STAGE-1",
+      "pending": false,
+      "matches": [
+        {
+          "home": "Mexico",
+          "away": "South Africa",
+          "expected_goals": {
+            "home": 2.01,
+            "away": 0.78
+          },
+          "outcome": {
+            "home": 0.656,
+            "draw": 0.213,
+            "away": 0.132
+          },
+          "winner": "home",
+          "favorite": "Mexico",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1237
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1237
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1182
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1013
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0969
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0828
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537327,
+          "utcDate": "2026-06-11T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "South Korea",
+          "away": "Czechia",
+          "expected_goals": {
+            "home": 1.59,
+            "away": 1.72
+          },
+          "outcome": {
+            "home": 0.354,
+            "draw": 0.239,
+            "away": 0.406
+          },
+          "winner": "away",
+          "favorite": "Czechia",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0858
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1049
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0858
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0796
+            },
+            {
+              "score": "2-2",
+              "prob": 0.0683
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0578
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537328,
+          "utcDate": "2026-06-12T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Canada",
+          "away": "Bosnia-Herzegovina",
+          "expected_goals": {
+            "home": 1.99,
+            "away": 0.84
+          },
+          "outcome": {
+            "home": 0.638,
+            "draw": 0.218,
+            "away": 0.145
+          },
+          "winner": "home",
+          "favorite": "Canada",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1172
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1172
+            },
+            {
+              "score": "1-0",
+              "prob": 0.113
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1037
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0981
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0776
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537333,
+          "utcDate": "2026-06-12T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "United States",
+          "away": "Paraguay",
+          "expected_goals": {
+            "home": 1.35,
+            "away": 1.39
+          },
+          "outcome": {
+            "home": 0.359,
+            "draw": 0.268,
+            "away": 0.373
+          },
+          "winner": "away",
+          "favorite": "Paraguay",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.084
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1273
+            },
+            {
+              "score": "1-2",
+              "prob": 0.084
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0835
+            },
+            {
+              "score": "2-1",
+              "prob": 0.082
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0814
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537345,
+          "utcDate": "2026-06-13T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Qatar",
+          "away": "Switzerland",
+          "expected_goals": {
+            "home": 0.86,
+            "away": 2.79
+          },
+          "outcome": {
+            "home": 0.086,
+            "draw": 0.144,
+            "away": 0.769
+          },
+          "winner": "away",
+          "favorite": "Switzerland",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1011
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1011
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0939
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0873
+            },
+            {
+              "score": "1-3",
+              "prob": 0.0811
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0694
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537334,
+          "utcDate": "2026-06-13T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Brazil",
+          "away": "Morocco",
+          "expected_goals": {
+            "home": 1.16,
+            "away": 1.03
+          },
+          "outcome": {
+            "home": 0.38,
+            "draw": 0.304,
+            "away": 0.316
+          },
+          "winner": "home",
+          "favorite": "Brazil",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1225
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1403
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1225
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1178
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1083
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0777
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537339,
+          "utcDate": "2026-06-13T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Haiti",
+          "away": "Scotland",
+          "expected_goals": {
+            "home": 0.99,
+            "away": 2.09
+          },
+          "outcome": {
+            "home": 0.166,
+            "draw": 0.212,
+            "away": 0.622
+          },
+          "winner": "away",
+          "favorite": "Scotland",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1001
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1001
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0997
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0994
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0909
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0699
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537340,
+          "utcDate": "2026-06-14T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Australia",
+          "away": "Turkey",
+          "expected_goals": {
+            "home": 1.61,
+            "away": 1.57
+          },
+          "outcome": {
+            "home": 0.386,
+            "draw": 0.245,
+            "away": 0.368
+          },
+          "winner": "home",
+          "favorite": "Australia",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0846
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1103
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0846
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0825
+            },
+            {
+              "score": "2-2",
+              "prob": 0.0665
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0616
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537346,
+          "utcDate": "2026-06-14T04:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Germany",
+          "away": "Curaçao",
+          "expected_goals": {
+            "home": 3.04,
+            "away": 0.63
+          },
+          "outcome": {
+            "home": 0.844,
+            "draw": 0.109,
+            "away": 0.047
+          },
+          "winner": "home",
+          "favorite": "Germany",
+          "likely_score": {
+            "score": "3-0",
+            "prob": 0.1193
+          },
+          "most_likely_scores": [
+            {
+              "score": "3-0",
+              "prob": 0.1193
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1179
+            },
+            {
+              "score": "4-0",
+              "prob": 0.0906
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0756
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0751
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537351,
+          "utcDate": "2026-06-14T17:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Netherlands",
+          "away": "Japan",
+          "expected_goals": {
+            "home": 1.43,
+            "away": 1.48
+          },
+          "outcome": {
+            "home": 0.359,
+            "draw": 0.259,
+            "away": 0.382
+          },
+          "winner": "away",
+          "favorite": "Japan",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0853
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1211
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0853
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0824
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0749
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0721
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537357,
+          "utcDate": "2026-06-14T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Ivory Coast",
+          "away": "Ecuador",
+          "expected_goals": {
+            "home": 0.64,
+            "away": 1.23
+          },
+          "outcome": {
+            "home": 0.187,
+            "draw": 0.313,
+            "away": 0.5
+          },
+          "winner": "away",
+          "favorite": "Ecuador",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1831
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1831
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1594
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1274
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1167
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0923
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537352,
+          "utcDate": "2026-06-14T23:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Sweden",
+          "away": "Tunisia",
+          "expected_goals": {
+            "home": 1.66,
+            "away": 1.27
+          },
+          "outcome": {
+            "home": 0.462,
+            "draw": 0.252,
+            "away": 0.286
+          },
+          "winner": "home",
+          "favorite": "Sweden",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0936
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1181
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0936
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0833
+            },
+            {
+              "score": "2-0",
+              "prob": 0.074
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0712
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537358,
+          "utcDate": "2026-06-15T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Spain",
+          "away": "Cape Verde Islands",
+          "expected_goals": {
+            "home": 3.01,
+            "away": 0.51
+          },
+          "outcome": {
+            "home": 0.864,
+            "draw": 0.101,
+            "away": 0.035
+          },
+          "winner": "home",
+          "favorite": "Spain",
+          "likely_score": {
+            "score": "3-0",
+            "prob": 0.135
+          },
+          "most_likely_scores": [
+            {
+              "score": "3-0",
+              "prob": 0.135
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1348
+            },
+            {
+              "score": "4-0",
+              "prob": 0.1014
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0874
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0689
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537369,
+          "utcDate": "2026-06-15T16:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Belgium",
+          "away": "Egypt",
+          "expected_goals": {
+            "home": 1.9,
+            "away": 0.87
+          },
+          "outcome": {
+            "home": 0.609,
+            "draw": 0.229,
+            "away": 0.163
+          },
+          "winner": "home",
+          "favorite": "Belgium",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1136
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1136
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1126
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1091
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0985
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0711
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537363,
+          "utcDate": "2026-06-15T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "expected_goals": {
+            "home": 0.55,
+            "away": 1.52
+          },
+          "outcome": {
+            "home": 0.128,
+            "draw": 0.267,
+            "away": 0.605
+          },
+          "winner": "away",
+          "favorite": "Uruguay",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1866
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1866
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1455
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1318
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1109
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0801
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537370,
+          "utcDate": "2026-06-15T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Iran",
+          "away": "New Zealand",
+          "expected_goals": {
+            "home": 1.86,
+            "away": 0.95
+          },
+          "outcome": {
+            "home": 0.58,
+            "draw": 0.235,
+            "away": 0.185
+          },
+          "winner": "home",
+          "favorite": "Iran",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1067
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.112
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1067
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1039
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0989
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0657
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537364,
+          "utcDate": "2026-06-16T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "France",
+          "away": "Senegal",
+          "expected_goals": {
+            "home": 1.85,
+            "away": 0.99
+          },
+          "outcome": {
+            "home": 0.571,
+            "draw": 0.236,
+            "away": 0.193
+          },
+          "winner": "home",
+          "favorite": "France",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1032
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1123
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1032
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1005
+            },
+            {
+              "score": "2-1",
+              "prob": 0.099
+            },
+            {
+              "score": "0-0",
+              "prob": 0.064
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537391,
+          "utcDate": "2026-06-16T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Iraq",
+          "away": "Norway",
+          "expected_goals": {
+            "home": 0.75,
+            "away": 2.34
+          },
+          "outcome": {
+            "home": 0.097,
+            "draw": 0.176,
+            "away": 0.727
+          },
+          "winner": "away",
+          "favorite": "Norway",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1251
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1251
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1028
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0977
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0933
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0836
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537392,
+          "utcDate": "2026-06-16T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Argentina",
+          "away": "Algeria",
+          "expected_goals": {
+            "home": 2.12,
+            "away": 0.76
+          },
+          "outcome": {
+            "home": 0.683,
+            "draw": 0.199,
+            "away": 0.117
+          },
+          "winner": "home",
+          "favorite": "Argentina",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1261
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1261
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1144
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0959
+            },
+            {
+              "score": "1-1",
+              "prob": 0.095
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0891
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537397,
+          "utcDate": "2026-06-17T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Austria",
+          "away": "Jordan",
+          "expected_goals": {
+            "home": 2.33,
+            "away": 1.02
+          },
+          "outcome": {
+            "home": 0.662,
+            "draw": 0.191,
+            "away": 0.147
+          },
+          "winner": "home",
+          "favorite": "Austria",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0971
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-1",
+              "prob": 0.0971
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0949
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0874
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0771
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0756
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537398,
+          "utcDate": "2026-06-17T04:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Portugal",
+          "away": "Congo DR",
+          "expected_goals": {
+            "home": 1.94,
+            "away": 0.59
+          },
+          "outcome": {
+            "home": 0.689,
+            "draw": 0.21,
+            "away": 0.1
+          },
+          "winner": "home",
+          "favorite": "Portugal",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1497
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1497
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1494
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0964
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0962
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0887
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537403,
+          "utcDate": "2026-06-17T17:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "England",
+          "away": "Croatia",
+          "expected_goals": {
+            "home": 1.68,
+            "away": 0.99
+          },
+          "outcome": {
+            "home": 0.529,
+            "draw": 0.254,
+            "away": 0.217
+          },
+          "winner": "home",
+          "favorite": "England",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1103
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1209
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1103
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0975
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0968
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0748
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537409,
+          "utcDate": "2026-06-17T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Ghana",
+          "away": "Panama",
+          "expected_goals": {
+            "home": 1.33,
+            "away": 1.43
+          },
+          "outcome": {
+            "home": 0.345,
+            "draw": 0.267,
+            "away": 0.388
+          },
+          "winner": "away",
+          "favorite": "Panama",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0859
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1263
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0859
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0841
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0803
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0783
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537410,
+          "utcDate": "2026-06-17T23:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "expected_goals": {
+            "home": 0.76,
+            "away": 2.14
+          },
+          "outcome": {
+            "home": 0.115,
+            "draw": 0.197,
+            "away": 0.688
+          },
+          "winner": "away",
+          "favorite": "Colombia",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1261
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1261
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1132
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0957
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0938
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0901
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537404,
+          "utcDate": "2026-06-18T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "stage_label": "Fase de grupos",
+      "matchday": 2,
+      "key": "GROUP_STAGE-2",
+      "pending": false,
+      "matches": [
+        {
+          "home": "Czechia",
+          "away": "South Africa",
+          "expected_goals": {
+            "home": 2.0,
+            "away": 0.98
+          },
+          "outcome": {
+            "home": 0.606,
+            "draw": 0.221,
+            "away": 0.173
+          },
+          "winner": "home",
+          "favorite": "Czechia",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.102
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1047
+            },
+            {
+              "score": "2-0",
+              "prob": 0.102
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0996
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0972
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0679
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537329,
+          "utcDate": "2026-06-18T16:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Switzerland",
+          "away": "Bosnia-Herzegovina",
+          "expected_goals": {
+            "home": 2.64,
+            "away": 0.82
+          },
+          "outcome": {
+            "home": 0.757,
+            "draw": 0.154,
+            "away": 0.089
+          },
+          "winner": "home",
+          "favorite": "Switzerland",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1099
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1099
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0965
+            },
+            {
+              "score": "2-1",
+              "prob": 0.09
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0799
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0791
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537335,
+          "utcDate": "2026-06-18T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Canada",
+          "away": "Qatar",
+          "expected_goals": {
+            "home": 2.1,
+            "away": 0.88
+          },
+          "outcome": {
+            "home": 0.65,
+            "draw": 0.208,
+            "away": 0.143
+          },
+          "winner": "home",
+          "favorite": "Canada",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1118
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1118
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1017
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0986
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0986
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0783
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537336,
+          "utcDate": "2026-06-18T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Mexico",
+          "away": "South Korea",
+          "expected_goals": {
+            "home": 1.73,
+            "away": 1.28
+          },
+          "outcome": {
+            "home": 0.474,
+            "draw": 0.247,
+            "away": 0.279
+          },
+          "winner": "home",
+          "favorite": "Mexico",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0944
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1148
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0944
+            },
+            {
+              "score": "1-0",
+              "prob": 0.08
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0738
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0699
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537330,
+          "utcDate": "2026-06-19T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "United States",
+          "away": "Australia",
+          "expected_goals": {
+            "home": 1.38,
+            "away": 1.56
+          },
+          "outcome": {
+            "home": 0.331,
+            "draw": 0.257,
+            "away": 0.412
+          },
+          "winner": "away",
+          "favorite": "Australia",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0888
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1198
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0888
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0785
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0773
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0676
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537348,
+          "utcDate": "2026-06-19T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Scotland",
+          "away": "Morocco",
+          "expected_goals": {
+            "home": 0.8,
+            "away": 1.49
+          },
+          "outcome": {
+            "home": 0.196,
+            "draw": 0.275,
+            "away": 0.529
+          },
+          "winner": "away",
+          "favorite": "Morocco",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1448
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1448
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1269
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1122
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1074
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0899
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537342,
+          "utcDate": "2026-06-19T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Brazil",
+          "away": "Haiti",
+          "expected_goals": {
+            "home": 3.04,
+            "away": 0.69
+          },
+          "outcome": {
+            "home": 0.834,
+            "draw": 0.113,
+            "away": 0.052
+          },
+          "winner": "home",
+          "favorite": "Brazil",
+          "likely_score": {
+            "score": "3-0",
+            "prob": 0.1128
+          },
+          "most_likely_scores": [
+            {
+              "score": "3-0",
+              "prob": 0.1128
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1114
+            },
+            {
+              "score": "4-0",
+              "prob": 0.0856
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0779
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0769
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537341,
+          "utcDate": "2026-06-20T00:30:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Turkey",
+          "away": "Paraguay",
+          "expected_goals": {
+            "home": 1.55,
+            "away": 1.43
+          },
+          "outcome": {
+            "home": 0.397,
+            "draw": 0.255,
+            "away": 0.348
+          },
+          "winner": "home",
+          "favorite": "Turkey",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.087
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1182
+            },
+            {
+              "score": "2-1",
+              "prob": 0.087
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0808
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0728
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0672
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537347,
+          "utcDate": "2026-06-20T03:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Netherlands",
+          "away": "Sweden",
+          "expected_goals": {
+            "home": 2.62,
+            "away": 1.42
+          },
+          "outcome": {
+            "home": 0.629,
+            "draw": 0.183,
+            "away": 0.188
+          },
+          "winner": "home",
+          "favorite": "Netherlands",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.086
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-1",
+              "prob": 0.086
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0751
+            },
+            {
+              "score": "1-1",
+              "prob": 0.069
+            },
+            {
+              "score": "2-2",
+              "prob": 0.0609
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0608
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537359,
+          "utcDate": "2026-06-20T17:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "expected_goals": {
+            "home": 1.91,
+            "away": 1.03
+          },
+          "outcome": {
+            "home": 0.573,
+            "draw": 0.231,
+            "away": 0.195
+          },
+          "winner": "home",
+          "favorite": "Germany",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0993
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1094
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0993
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0965
+            },
+            {
+              "score": "1-0",
+              "prob": 0.096
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0632
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537353,
+          "utcDate": "2026-06-20T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Ecuador",
+          "away": "Curaçao",
+          "expected_goals": {
+            "home": 1.96,
+            "away": 0.39
+          },
+          "outcome": {
+            "home": 0.748,
+            "draw": 0.191,
+            "away": 0.061
+          },
+          "winner": "home",
+          "favorite": "Ecuador",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1823
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1823
+            },
+            {
+              "score": "1-0",
+              "prob": 0.182
+            },
+            {
+              "score": "3-0",
+              "prob": 0.1194
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0982
+            },
+            {
+              "score": "1-1",
+              "prob": 0.077
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537354,
+          "utcDate": "2026-06-21T00:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Tunisia",
+          "away": "Japan",
+          "expected_goals": {
+            "home": 0.69,
+            "away": 1.74
+          },
+          "outcome": {
+            "home": 0.139,
+            "draw": 0.241,
+            "away": 0.621
+          },
+          "winner": "away",
+          "favorite": "Japan",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1477
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1477
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1332
+            },
+            {
+              "score": "1-1",
+              "prob": 0.111
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0932
+            },
+            {
+              "score": "1-2",
+              "prob": 0.092
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537360,
+          "utcDate": "2026-06-21T04:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Spain",
+          "away": "Saudi Arabia",
+          "expected_goals": {
+            "home": 2.49,
+            "away": 0.52
+          },
+          "outcome": {
+            "home": 0.801,
+            "draw": 0.144,
+            "away": 0.055
+          },
+          "winner": "home",
+          "favorite": "Spain",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1532
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1532
+            },
+            {
+              "score": "3-0",
+              "prob": 0.127
+            },
+            {
+              "score": "1-0",
+              "prob": 0.12
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0795
+            },
+            {
+              "score": "4-0",
+              "prob": 0.079
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537371,
+          "utcDate": "2026-06-21T16:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Belgium",
+          "away": "Iran",
+          "expected_goals": {
+            "home": 2.1,
+            "away": 1.17
+          },
+          "outcome": {
+            "home": 0.582,
+            "draw": 0.217,
+            "away": 0.201
+          },
+          "winner": "home",
+          "favorite": "Belgium",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0981
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.0982
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0981
+            },
+            {
+              "score": "2-0",
+              "prob": 0.084
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0754
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0686
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537365,
+          "utcDate": "2026-06-21T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Uruguay",
+          "away": "Cape Verde Islands",
+          "expected_goals": {
+            "home": 1.83,
+            "away": 0.54
+          },
+          "outcome": {
+            "home": 0.682,
+            "draw": 0.22,
+            "away": 0.098
+          },
+          "winner": "home",
+          "favorite": "Uruguay",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1659
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1659
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1563
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0977
+            },
+            {
+              "score": "1-1",
+              "prob": 0.097
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0955
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537372,
+          "utcDate": "2026-06-21T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "New Zealand",
+          "away": "Egypt",
+          "expected_goals": {
+            "home": 0.86,
+            "away": 1.39
+          },
+          "outcome": {
+            "home": 0.226,
+            "draw": 0.287,
+            "away": 0.486
+          },
+          "winner": "away",
+          "favorite": "Egypt",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1403
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1403
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1324
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1119
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1017
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0875
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537366,
+          "utcDate": "2026-06-22T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Argentina",
+          "away": "Austria",
+          "expected_goals": {
+            "home": 1.79,
+            "away": 0.78
+          },
+          "outcome": {
+            "home": 0.609,
+            "draw": 0.238,
+            "away": 0.153
+          },
+          "winner": "home",
+          "favorite": "Argentina",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1319
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1319
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1228
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1122
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0956
+            },
+            {
+              "score": "0-0",
+              "prob": 0.082
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537399,
+          "utcDate": "2026-06-22T17:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "France",
+          "away": "Iraq",
+          "expected_goals": {
+            "home": 2.53,
+            "away": 0.59
+          },
+          "outcome": {
+            "home": 0.792,
+            "draw": 0.146,
+            "away": 0.062
+          },
+          "winner": "home",
+          "favorite": "France",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1418
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1418
+            },
+            {
+              "score": "3-0",
+              "prob": 0.1196
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1088
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0834
+            },
+            {
+              "score": "4-0",
+              "prob": 0.0756
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537393,
+          "utcDate": "2026-06-22T21:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Norway",
+          "away": "Senegal",
+          "expected_goals": {
+            "home": 1.72,
+            "away": 1.25
+          },
+          "outcome": {
+            "home": 0.478,
+            "draw": 0.249,
+            "away": 0.274
+          },
+          "winner": "home",
+          "favorite": "Norway",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0948
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1161
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0948
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0829
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0758
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0691
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537394,
+          "utcDate": "2026-06-23T00:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Jordan",
+          "away": "Algeria",
+          "expected_goals": {
+            "home": 1.21,
+            "away": 2.28
+          },
+          "outcome": {
+            "home": 0.188,
+            "draw": 0.202,
+            "away": 0.61
+          },
+          "winner": "away",
+          "favorite": "Algeria",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0959
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-2",
+              "prob": 0.0959
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0883
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0791
+            },
+            {
+              "score": "1-3",
+              "prob": 0.073
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0651
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537400,
+          "utcDate": "2026-06-23T03:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Portugal",
+          "away": "Uzbekistan",
+          "expected_goals": {
+            "home": 2.14,
+            "away": 0.7
+          },
+          "outcome": {
+            "home": 0.702,
+            "draw": 0.193,
+            "away": 0.105
+          },
+          "winner": "home",
+          "favorite": "Portugal",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1333
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1333
+            },
+            {
+              "score": "1-0",
+              "prob": 0.12
+            },
+            {
+              "score": "3-0",
+              "prob": 0.0953
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0938
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0918
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537405,
+          "utcDate": "2026-06-23T17:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "England",
+          "away": "Ghana",
+          "expected_goals": {
+            "home": 2.87,
+            "away": 0.5
+          },
+          "outcome": {
+            "home": 0.852,
+            "draw": 0.11,
+            "away": 0.039
+          },
+          "winner": "home",
+          "favorite": "England",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1415
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1415
+            },
+            {
+              "score": "3-0",
+              "prob": 0.1355
+            },
+            {
+              "score": "4-0",
+              "prob": 0.0974
+            },
+            {
+              "score": "1-0",
+              "prob": 0.096
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0711
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537411,
+          "utcDate": "2026-06-23T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Panama",
+          "away": "Croatia",
+          "expected_goals": {
+            "home": 0.83,
+            "away": 2.63
+          },
+          "outcome": {
+            "home": 0.092,
+            "draw": 0.155,
+            "away": 0.754
+          },
+          "winner": "away",
+          "favorite": "Croatia",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1082
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1082
+            },
+            {
+              "score": "0-3",
+              "prob": 0.095
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0904
+            },
+            {
+              "score": "1-3",
+              "prob": 0.0794
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0787
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537412,
+          "utcDate": "2026-06-23T23:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Colombia",
+          "away": "Congo DR",
+          "expected_goals": {
+            "home": 1.94,
+            "away": 0.64
+          },
+          "outcome": {
+            "home": 0.677,
+            "draw": 0.213,
+            "away": 0.11
+          },
+          "winner": "home",
+          "favorite": "Colombia",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1425
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1425
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1425
+            },
+            {
+              "score": "1-1",
+              "prob": 0.099
+            },
+            {
+              "score": "3-0",
+              "prob": 0.092
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0913
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537406,
+          "utcDate": "2026-06-24T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "stage_label": "Fase de grupos",
+      "matchday": 3,
+      "key": "GROUP_STAGE-3",
+      "pending": false,
+      "matches": [
+        {
+          "home": "Switzerland",
+          "away": "Canada",
+          "expected_goals": {
+            "home": 1.77,
+            "away": 1.19
+          },
+          "outcome": {
+            "home": 0.505,
+            "draw": 0.245,
+            "away": 0.25
+          },
+          "winner": "home",
+          "favorite": "Switzerland",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0966
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1145
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0966
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0863
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0813
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0648
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537337,
+          "utcDate": "2026-06-24T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Bosnia-Herzegovina",
+          "away": "Qatar",
+          "expected_goals": {
+            "home": 1.32,
+            "away": 1.31
+          },
+          "outcome": {
+            "home": 0.364,
+            "draw": 0.275,
+            "away": 0.362
+          },
+          "winner": "home",
+          "favorite": "Bosnia-Herzegovina",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.0888
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1309
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0888
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0885
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0821
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0818
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537338,
+          "utcDate": "2026-06-24T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Morocco",
+          "away": "Haiti",
+          "expected_goals": {
+            "home": 2.1,
+            "away": 0.54
+          },
+          "outcome": {
+            "home": 0.736,
+            "draw": 0.186,
+            "away": 0.078
+          },
+          "winner": "home",
+          "favorite": "Morocco",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1581
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1581
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1467
+            },
+            {
+              "score": "3-0",
+              "prob": 0.1106
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0848
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0847
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537344,
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Scotland",
+          "away": "Brazil",
+          "expected_goals": {
+            "home": 1.03,
+            "away": 2.15
+          },
+          "outcome": {
+            "home": 0.167,
+            "draw": 0.208,
+            "away": 0.625
+          },
+          "winner": "away",
+          "favorite": "Brazil",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.099
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-2",
+              "prob": 0.099
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0965
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0958
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0844
+            },
+            {
+              "score": "1-3",
+              "prob": 0.0711
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537343,
+          "utcDate": "2026-06-24T22:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Czechia",
+          "away": "Mexico",
+          "expected_goals": {
+            "home": 1.35,
+            "away": 1.54
+          },
+          "outcome": {
+            "home": 0.329,
+            "draw": 0.258,
+            "away": 0.413
+          },
+          "winner": "away",
+          "favorite": "Mexico",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.089
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1211
+            },
+            {
+              "score": "1-2",
+              "prob": 0.089
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0794
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0781
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0689
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537331,
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "South Africa",
+          "away": "South Korea",
+          "expected_goals": {
+            "home": 0.99,
+            "away": 1.89
+          },
+          "outcome": {
+            "home": 0.19,
+            "draw": 0.233,
+            "away": 0.577
+          },
+          "winner": "away",
+          "favorite": "South Korea",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1008
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1105
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1008
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0999
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0992
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0628
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537332,
+          "utcDate": "2026-06-25T01:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Ecuador",
+          "away": "Germany",
+          "expected_goals": {
+            "home": 1.23,
+            "away": 1.18
+          },
+          "outcome": {
+            "home": 0.367,
+            "draw": 0.289,
+            "away": 0.345
+          },
+          "winner": "home",
+          "favorite": "Ecuador",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1035
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1368
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1035
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0994
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0959
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0801
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537355,
+          "utcDate": "2026-06-25T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Curaçao",
+          "away": "Ivory Coast",
+          "expected_goals": {
+            "home": 0.64,
+            "away": 1.64
+          },
+          "outcome": {
+            "home": 0.136,
+            "draw": 0.251,
+            "away": 0.613
+          },
+          "winner": "away",
+          "favorite": "Ivory Coast",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1628
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1628
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1383
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1123
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1076
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0879
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537356,
+          "utcDate": "2026-06-25T20:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Tunisia",
+          "away": "Netherlands",
+          "expected_goals": {
+            "home": 0.84,
+            "away": 2.03
+          },
+          "outcome": {
+            "home": 0.14,
+            "draw": 0.213,
+            "away": 0.647
+          },
+          "winner": "away",
+          "favorite": "Netherlands",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1173
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1173
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1106
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1013
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0981
+            },
+            {
+              "score": "0-3",
+              "prob": 0.0795
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537361,
+          "utcDate": "2026-06-25T23:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Japan",
+          "away": "Sweden",
+          "expected_goals": {
+            "home": 2.24,
+            "away": 1.17
+          },
+          "outcome": {
+            "home": 0.611,
+            "draw": 0.205,
+            "away": 0.185
+          },
+          "winner": "home",
+          "favorite": "Japan",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.097
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-1",
+              "prob": 0.097
+            },
+            {
+              "score": "1-1",
+              "prob": 0.0909
+            },
+            {
+              "score": "2-0",
+              "prob": 0.0829
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0725
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0696
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537362,
+          "utcDate": "2026-06-25T23:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Turkey",
+          "away": "United States",
+          "expected_goals": {
+            "home": 2.08,
+            "away": 1.72
+          },
+          "outcome": {
+            "home": 0.463,
+            "draw": 0.218,
+            "away": 0.319
+          },
+          "winner": "home",
+          "favorite": "Turkey",
+          "likely_score": {
+            "score": "2-1",
+            "prob": 0.0834
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.0841
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0834
+            },
+            {
+              "score": "2-2",
+              "prob": 0.0716
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0687
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0579
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537349,
+          "utcDate": "2026-06-26T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Paraguay",
+          "away": "Australia",
+          "expected_goals": {
+            "home": 1.05,
+            "away": 1.16
+          },
+          "outcome": {
+            "home": 0.32,
+            "draw": 0.304,
+            "away": 0.376
+          },
+          "winner": "away",
+          "favorite": "Australia",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1213
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1404
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1213
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1174
+            },
+            {
+              "score": "1-0",
+              "prob": 0.109
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0773
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537350,
+          "utcDate": "2026-06-26T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Norway",
+          "away": "France",
+          "expected_goals": {
+            "home": 1.35,
+            "away": 1.85
+          },
+          "outcome": {
+            "home": 0.276,
+            "draw": 0.237,
+            "away": 0.487
+          },
+          "winner": "away",
+          "favorite": "France",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0941
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1067
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0941
+            },
+            {
+              "score": "0-1",
+              "prob": 0.07
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0696
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0687
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537395,
+          "utcDate": "2026-06-26T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Senegal",
+          "away": "Iraq",
+          "expected_goals": {
+            "home": 1.71,
+            "away": 0.75
+          },
+          "outcome": {
+            "home": 0.598,
+            "draw": 0.247,
+            "away": 0.155
+          },
+          "winner": "home",
+          "favorite": "Senegal",
+          "likely_score": {
+            "score": "1-0",
+            "prob": 0.1415
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-0",
+              "prob": 0.1415
+            },
+            {
+              "score": "2-0",
+              "prob": 0.1254
+            },
+            {
+              "score": "1-1",
+              "prob": 0.115
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0935
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0916
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537396,
+          "utcDate": "2026-06-26T19:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Uruguay",
+          "away": "Spain",
+          "expected_goals": {
+            "home": 0.77,
+            "away": 1.34
+          },
+          "outcome": {
+            "home": 0.209,
+            "draw": 0.295,
+            "away": 0.496
+          },
+          "winner": "away",
+          "favorite": "Spain",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1563
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-1",
+              "prob": 0.1563
+            },
+            {
+              "score": "1-1",
+              "prob": 0.1314
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1277
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1088
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0872
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537373,
+          "utcDate": "2026-06-27T00:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Cape Verde Islands",
+          "away": "Saudi Arabia",
+          "expected_goals": {
+            "home": 1.01,
+            "away": 1.24
+          },
+          "outcome": {
+            "home": 0.293,
+            "draw": 0.299,
+            "away": 0.408
+          },
+          "winner": "away",
+          "favorite": "Saudi Arabia",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1247
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1387
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1247
+            },
+            {
+              "score": "0-0",
+              "prob": 0.1128
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1003
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0816
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537374,
+          "utcDate": "2026-06-27T00:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "New Zealand",
+          "away": "Belgium",
+          "expected_goals": {
+            "home": 0.75,
+            "away": 2.64
+          },
+          "outcome": {
+            "home": 0.08,
+            "draw": 0.149,
+            "away": 0.771
+          },
+          "winner": "away",
+          "favorite": "Belgium",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1172
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1172
+            },
+            {
+              "score": "0-3",
+              "prob": 0.1031
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0884
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0855
+            },
+            {
+              "score": "1-3",
+              "prob": 0.0777
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537367,
+          "utcDate": "2026-06-27T03:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Egypt",
+          "away": "Iran",
+          "expected_goals": {
+            "home": 1.1,
+            "away": 1.33
+          },
+          "outcome": {
+            "home": 0.303,
+            "draw": 0.285,
+            "away": 0.412
+          },
+          "winner": "away",
+          "favorite": "Iran",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1101
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1351
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1101
+            },
+            {
+              "score": "0-0",
+              "prob": 0.0939
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0901
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0857
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537368,
+          "utcDate": "2026-06-27T03:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Panama",
+          "away": "England",
+          "expected_goals": {
+            "home": 0.55,
+            "away": 2.93
+          },
+          "outcome": {
+            "home": 0.041,
+            "draw": 0.109,
+            "away": 0.849
+          },
+          "winner": "away",
+          "favorite": "England",
+          "likely_score": {
+            "score": "0-2",
+            "prob": 0.1326
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-2",
+              "prob": 0.1326
+            },
+            {
+              "score": "0-3",
+              "prob": 0.1297
+            },
+            {
+              "score": "0-4",
+              "prob": 0.0951
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0879
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0728
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537413,
+          "utcDate": "2026-06-27T21:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Croatia",
+          "away": "Ghana",
+          "expected_goals": {
+            "home": 2.58,
+            "away": 0.76
+          },
+          "outcome": {
+            "home": 0.761,
+            "draw": 0.155,
+            "away": 0.085
+          },
+          "winner": "home",
+          "favorite": "Croatia",
+          "likely_score": {
+            "score": "2-0",
+            "prob": 0.1176
+          },
+          "most_likely_scores": [
+            {
+              "score": "2-0",
+              "prob": 0.1176
+            },
+            {
+              "score": "3-0",
+              "prob": 0.1011
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0899
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0877
+            },
+            {
+              "score": "3-1",
+              "prob": 0.0773
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537414,
+          "utcDate": "2026-06-27T21:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Colombia",
+          "away": "Portugal",
+          "expected_goals": {
+            "home": 1.43,
+            "away": 1.55
+          },
+          "outcome": {
+            "home": 0.348,
+            "draw": 0.255,
+            "away": 0.398
+          },
+          "winner": "away",
+          "favorite": "Portugal",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0871
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1184
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0871
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0807
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0731
+            },
+            {
+              "score": "1-0",
+              "prob": 0.0673
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537407,
+          "utcDate": "2026-06-27T23:30:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Congo DR",
+          "away": "Uzbekistan",
+          "expected_goals": {
+            "home": 0.89,
+            "away": 0.95
+          },
+          "outcome": {
+            "home": 0.314,
+            "draw": 0.338,
+            "away": 0.348
+          },
+          "winner": "away",
+          "favorite": "Uzbekistan",
+          "likely_score": {
+            "score": "0-1",
+            "prob": 0.1443
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-0",
+              "prob": 0.1655
+            },
+            {
+              "score": "0-1",
+              "prob": 0.1443
+            },
+            {
+              "score": "1-1",
+              "prob": 0.141
+            },
+            {
+              "score": "1-0",
+              "prob": 0.1345
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0718
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537408,
+          "utcDate": "2026-06-27T23:30:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Jordan",
+          "away": "Argentina",
+          "expected_goals": {
+            "home": 0.58,
+            "away": 3.04
+          },
+          "outcome": {
+            "home": 0.041,
+            "draw": 0.105,
+            "away": 0.854
+          },
+          "winner": "away",
+          "favorite": "Argentina",
+          "likely_score": {
+            "score": "0-3",
+            "prob": 0.126
+          },
+          "most_likely_scores": [
+            {
+              "score": "0-3",
+              "prob": 0.126
+            },
+            {
+              "score": "0-2",
+              "prob": 0.1245
+            },
+            {
+              "score": "0-4",
+              "prob": 0.0957
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0796
+            },
+            {
+              "score": "1-3",
+              "prob": 0.073
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537401,
+          "utcDate": "2026-06-28T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        },
+        {
+          "home": "Algeria",
+          "away": "Austria",
+          "expected_goals": {
+            "home": 1.34,
+            "away": 1.63
+          },
+          "outcome": {
+            "home": 0.311,
+            "draw": 0.253,
+            "away": 0.436
+          },
+          "winner": "away",
+          "favorite": "Austria",
+          "likely_score": {
+            "score": "1-2",
+            "prob": 0.0912
+          },
+          "most_likely_scores": [
+            {
+              "score": "1-1",
+              "prob": 0.1175
+            },
+            {
+              "score": "1-2",
+              "prob": 0.0912
+            },
+            {
+              "score": "0-1",
+              "prob": 0.0776
+            },
+            {
+              "score": "2-1",
+              "prob": 0.0753
+            },
+            {
+              "score": "0-2",
+              "prob": 0.0678
+            }
+          ],
+          "learned_weight": 0.0,
+          "id": 537402,
+          "utcDate": "2026-06-28T02:00:00Z",
+          "status": "TIMED",
+          "pending": false,
+          "played": false
+        }
+      ]
+    },
+    {
+      "stage": "LAST_32",
+      "stage_label": "Dieciseisavos",
+      "matchday": null,
+      "key": "LAST_32-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-28T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-29T17:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-29T20:30:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-30T01:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-30T17:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-06-30T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-01T01:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-01T16:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-01T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-02T00:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-02T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-02T23:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-03T03:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-03T18:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-03T22:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-04T01:30:00Z",
+          "status": "TIMED"
+        }
+      ]
+    },
+    {
+      "stage": "LAST_16",
+      "stage_label": "Octavos",
+      "matchday": null,
+      "key": "LAST_16-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-04T17:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-04T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-05T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-06T00:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-06T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-07T00:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-07T16:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-07T20:00:00Z",
+          "status": "TIMED"
+        }
+      ]
+    },
+    {
+      "stage": "QUARTER_FINALS",
+      "stage_label": "Cuartos",
+      "matchday": null,
+      "key": "QUARTER_FINALS-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-09T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-10T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-11T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-12T01:00:00Z",
+          "status": "TIMED"
+        }
+      ]
+    },
+    {
+      "stage": "SEMI_FINALS",
+      "stage_label": "Semifinales",
+      "matchday": null,
+      "key": "SEMI_FINALS-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-14T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-15T19:00:00Z",
+          "status": "TIMED"
+        }
+      ]
+    },
+    {
+      "stage": "THIRD_PLACE",
+      "stage_label": "Tercer puesto",
+      "matchday": null,
+      "key": "THIRD_PLACE-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-18T21:00:00Z",
+          "status": "TIMED"
+        }
+      ]
+    },
+    {
+      "stage": "FINAL",
+      "stage_label": "Final",
+      "matchday": null,
+      "key": "FINAL-None",
+      "pending": true,
+      "matches": [
+        {
+          "pending": true,
+          "played": false,
+          "utcDate": "2026-07-19T19:00:00Z",
+          "status": "TIMED"
+        }
+      ]
+    }
+  ]
+}

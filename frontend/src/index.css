@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen text-slate-800;
+  background: linear-gradient(160deg, #eef6ff 0%, #fff7f0 45%, #fdeef3 100%);
+  background-attachment: fixed;
+}
+
+/* Scrollbar fino para el selector de fases en escritorio */
+.no-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+.no-scrollbar::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-slate-200;
+}

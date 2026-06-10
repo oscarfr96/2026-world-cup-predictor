@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-06-10T16:05:46.735706+00:00",
+  "source": "martj42/international_results",
+  "window_years": 6,
+  "half_life_years": 3.0,
+  "teams": {
+    "algeria": {
+      "attack": 1.127,
+      "defense": 1.047,
+      "name": "Algeria"
+    },
+    "argentina": {
+      "attack": 1.5,
+      "defense": 0.5,
+      "name": "Argentina"
+    },
+    "australia": {
+      "attack": 0.974,
+      "defense": 0.893,
+      "name": "Australia"
+    },
+    "austria": {
+      "attack": 1.153,
+      "defense": 0.884,
+      "name": "Austria"
+    },
+    "belgium": {
+      "attack": 1.492,
+      "defense": 0.825,
+      "name": "Belgium"
+    },
+    "bosnia-herzegovina": {
+      "attack": 0.65,
+      "defense": 1.419,
+      "name": "Bosnia-Herzegovina"
+    },
+    "brazil": {
+      "attack": 1.5,
+      "defense": 0.74,
+      "name": "Brazil"
+    },
+    "canada": {
+      "attack": 0.943,
+      "defense": 0.954,
+      "name": "Canada"
+    },
+    "cape verde islands": {
+      "attack": 0.607,
+      "defense": 1.484,
+      "name": "Cape Verde Islands"
+    },
+    "colombia": {
+      "attack": 1.5,
+      "defense": 0.763,
+      "name": "Colombia"
+    },
+    "congo dr": {
+      "attack": 0.622,
+      "defense": 0.956,
+      "name": "Congo DR"
+    },
+    "croatia": {
+      "attack": 1.301,
+      "defense": 0.859,
+      "name": "Croatia"
+    },
+    "curacao": {
+      "attack": 0.5,
+      "defense": 1.5,
+      "name": "Curaçao"
+    },
+    "czechia": {
+      "attack": 1.094,
+      "defense": 1.142,
+      "name": "Czechia"
+    },
+    "ecuador": {
+      "attack": 0.97,
+      "defense": 0.585,
+      "name": "Ecuador"
+    },
+    "egypt": {
+      "attack": 0.785,
+      "defense": 0.941,
+      "name": "Egypt"
+    },
+    "england": {
+      "attack": 1.449,
+      "defense": 0.565,
+      "name": "England"
+    },
+    "france": {
+      "attack": 1.5,
+      "defense": 0.721,
+      "name": "France"
+    },
+    "germany": {
+      "attack": 1.5,
+      "defense": 0.939,
+      "name": "Germany"
+    },
+    "ghana": {
+      "attack": 0.659,
+      "defense": 1.469,
+      "name": "Ghana"
+    },
+    "haiti": {
+      "attack": 0.691,
+      "defense": 1.5,
+      "name": "Haiti"
+    },
+    "iran": {
+      "attack": 1.049,
+      "defense": 1.042,
+      "name": "Iran"
+    },
+    "iraq": {
+      "attack": 0.604,
+      "defense": 1.249,
+      "name": "Iraq"
+    },
+    "ivory coast": {
+      "attack": 0.812,
+      "defense": 0.942,
+      "name": "Ivory Coast"
+    },
+    "japan": {
+      "attack": 1.284,
+      "defense": 0.706,
+      "name": "Japan"
+    },
+    "jordan": {
+      "attack": 0.858,
+      "defense": 1.5,
+      "name": "Jordan"
+    },
+    "mexico": {
+      "attack": 1.001,
+      "defense": 0.917,
+      "name": "Mexico"
+    },
+    "morocco": {
+      "attack": 1.036,
+      "defense": 0.574,
+      "name": "Morocco"
+    },
+    "netherlands": {
+      "attack": 1.5,
+      "defense": 0.854,
+      "name": "Netherlands"
+    },
+    "new zealand": {
+      "attack": 0.677,
+      "defense": 1.31,
+      "name": "New Zealand"
+    },
+    "norway": {
+      "attack": 1.39,
+      "defense": 0.915,
+      "name": "Norway"
+    },
+    "panama": {
+      "attack": 0.72,
+      "defense": 1.5,
+      "name": "Panama"
+    },
+    "paraguay": {
+      "attack": 0.867,
+      "defense": 0.879,
+      "name": "Paraguay"
+    },
+    "portugal": {
+      "attack": 1.5,
+      "defense": 0.707,
+      "name": "Portugal"
+    },
+    "qatar": {
+      "attack": 0.685,
+      "defense": 1.5,
+      "name": "Qatar"
+    },
+    "saudi arabia": {
+      "attack": 0.617,
+      "defense": 1.228,
+      "name": "Saudi Arabia"
+    },
+    "scotland": {
+      "attack": 1.034,
+      "defense": 1.064,
+      "name": "Scotland"
+    },
+    "senegal": {
+      "attack": 1.012,
+      "defense": 0.914,
+      "name": "Senegal"
+    },
+    "south africa": {
+      "attack": 0.633,
+      "defense": 1.352,
+      "name": "South Africa"
+    },
+    "south korea": {
+      "attack": 1.033,
+      "defense": 1.162,
+      "name": "South Korea"
+    },
+    "spain": {
+      "attack": 1.5,
+      "defense": 0.623,
+      "name": "Spain"
+    },
+    "sweden": {
+      "attack": 1.228,
+      "defense": 1.293,
+      "name": "Sweden"
+    },
+    "switzerland": {
+      "attack": 1.376,
+      "defense": 0.934,
+      "name": "Switzerland"
+    },
+    "tunisia": {
+      "attack": 0.725,
+      "defense": 1.004,
+      "name": "Tunisia"
+    },
+    "turkey": {
+      "attack": 1.303,
+      "defense": 1.226,
+      "name": "Turkey"
+    },
+    "united states": {
+      "attack": 1.037,
+      "defense": 1.184,
+      "name": "United States"
+    },
+    "uruguay": {
+      "attack": 0.915,
+      "defense": 0.661,
+      "name": "Uruguay"
+    },
+    "uzbekistan": {
+      "attack": 0.737,
+      "defense": 1.059,
+      "name": "Uzbekistan"
+    }
+  }
+}

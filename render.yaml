@@ -1,0 +1,26 @@
+# Blueprint de Render (infraestructura como código). Crea el backend FastAPI que sirve /predictions.
+#
+# El recompute diario NO se hace con un cron de Render: el plan free de Render ya no admite cron jobs.
+# En su lugar lo dispara un GitHub Actions programado (.github/workflows/daily-recompute.yml) que hace
+# un POST a /admin/recompute una vez al día. Gratis y versionado igual que el resto de la infra.
+#
+# Los SECRETOS (clave de la API, token) NO van aquí: se marcan sync:false y se rellenan a mano en el
+# panel de Render. Así este fichero puede vivir en un repo público sin filtrar nada.
+
+services:
+  - type: web
+    name: wc-predictor-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # --proxy-headers + --forwarded-allow-ips: detrás del proxy de Render, hace que la app vea la IP
+    # real del cliente (X-Forwarded-For) y no la del proxy → el rate limit por IP funciona de verdad.
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'
+    envVars:
+      - key: FOOTBALL_DATA_ORG_KEY
+        sync: false          # rellénalo en el panel de Render (no en el repo)
+      - key: RECOMPUTE_TOKEN
+        sync: false          # idem; debe coincidir con el secreto del GitHub Action
+      - key: ALLOWED_ORIGIN
+        sync: false          # la URL de tu frontend en Vercel

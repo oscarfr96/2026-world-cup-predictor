@@ -1,0 +1,77 @@
+# Tarea diaria (sustituye al cron de Render, que ya no es gratis). Hace dos cosas:
+#   1) POST /admin/recompute → refresca las predicciones del día en el backend.
+#   2) Congela las predicciones de cada partido y actualiza el track record persistido en Vercel Blob
+#      (scripts/update-track-record.mjs).
+#
+# El guard de fecha del backend hace que, aunque esto se ejecute de más (o lo lances a mano), solo la
+# primera llamada del día toque la API de fútbol. Los secretos van en Settings > Secrets and variables
+# > Actions: API_URL, RECOMPUTE_TOKEN y BLOB_READ_WRITE_TOKEN.
+#
+# Nota: el web service free de Render se duerme tras inactividad; el POST también lo despierta.
+
+name: daily-recompute
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # cada día a las 09:00 UTC
+  workflow_dispatch: # permite lanzarlo a mano desde la pestaña Actions
+    inputs:
+      force:
+        description: "Forzar el recálculo aunque ya se haya calculado hoy (gasta 1 llamada a la API de fútbol)"
+        type: boolean
+        default: false
+
+jobs:
+  recompute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Disparar el recompute
+        env:
+          API_URL: ${{ secrets.API_URL }}
+          RECOMPUTE_TOKEN: ${{ secrets.RECOMPUTE_TOKEN }}
+          # En runs programados github.event.inputs.force viene vacío → se trata como "false".
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          if [ -z "$API_URL" ] || [ -z "$RECOMPUTE_TOKEN" ]; then
+            echo "Faltan los secrets API_URL y/o RECOMPUTE_TOKEN en el repo." >&2
+            exit 1
+          fi
+          # Si se pidió force=true (solo posible en runs manuales), se añade ?force=true para
+          # ignorar el guard de fecha y recalcular aunque ya exista el snapshot de hoy.
+          url="$API_URL/admin/recompute"
+          if [ "$FORCE" = "true" ]; then
+            url="$url?force=true"
+            echo "Modo FORCE activado: se recalculará aunque ya se haya calculado hoy."
+          fi
+          echo "POST $url ..."
+          # --max-time alto porque el free de Render puede tardar en despertar (~50s).
+          code=$(curl -sS -o /tmp/resp.json -w "%{http_code}" --max-time 120 \
+            -X POST "$url" \
+            -H "X-Recompute-Token: $RECOMPUTE_TOKEN")
+          echo "HTTP $code"
+          cat /tmp/resp.json || true
+          echo
+          # 2xx = ok (recomputed o cached). Cualquier otra cosa = fallo del job.
+          case "$code" in
+            2*) echo "Recompute OK";;
+            *) echo "Recompute fallo (HTTP $code)"; exit 1;;
+          esac
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Actualizar track record en Vercel Blob
+        env:
+          API_URL: ${{ secrets.API_URL }}
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: |
+          if [ -z "$BLOB_READ_WRITE_TOKEN" ]; then
+            echo "Falta el secret BLOB_READ_WRITE_TOKEN; se omite el track record." >&2
+            exit 0
+          fi
+          npm install --no-save @vercel/blob@^2
+          node scripts/update-track-record.mjs
