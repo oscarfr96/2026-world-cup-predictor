@@ -1,7 +1,9 @@
 # ⚽ 2026 World Cup Predictor
 
-Predictor abierto de los partidos del Mundial 2026. Por cada partido estima el
-**favorito**, los **goles esperados**, las **probabilidades 1X2** y los **marcadores más probables**.
+Predictor abierto de los partidos del Mundial 2026. Por cada partido estima el **favorito**, los
+**goles esperados**, las **probabilidades 1X2** y los **marcadores más probables** — y lleva un
+**registro honesto de aciertos**: congela cada predicción antes del partido y la compara con el
+resultado real.
 
 🔗 **Pruébalo en vivo:** **https://oscar-wc-predictor.vercel.app/**
 
@@ -32,14 +34,15 @@ avanza, mandan los datos del propio Mundial. Ese ajuste gradual es el corazón d
 ┌────────────────┐ 1 vez/día   ┌──────────────────┐   POST /admin/recompute   ┌─────────────────┐
 │ GitHub Actions │ ──────────▶ │ Backend (Render) │ ───── 1 llamada/día ────▶ │ football-data.org│
 │  (cron diario) │             │  FastAPI + modelo │                           └─────────────────┘
-└────────────────┘             │  caché JSON       │
-                              │  rate limit/IP    │
-                              └──────────────────┘
-                                       ▲ GET /predictions (barato, solo lee la caché)
-                                       │   · rate limit 60/min por IP (slowapi)
-                              ┌──────────────────┐
-                              │ Frontend (Vercel) │  ← lo que ve cada visita
-                              └──────────────────┘
+└───────┬────────┘             │  caché JSON       │
+        │                      │  rate limit/IP    │
+        │ congela predicciones └──────────────────┘
+        │ del día                       ▲ GET /predictions (barato, solo lee la caché)
+        ▼                               │   · rate limit 60/min por IP (slowapi)
+┌──────────────┐                ┌──────────────────┐
+│ Vercel Blob  │◀── /api/ ──────│ Frontend (Vercel) │  ← lo que ve cada visita
+│ track record │  track-record  └──────────────────┘
+└──────────────┘  (función)
 ```
 
 La idea central es separar el **cálculo** (caro) de la **lectura** (barata):
@@ -56,11 +59,14 @@ La idea central es separar el **cálculo** (caro) de la **lectura** (barata):
 - Como `/predictions` es público, lleva un **rate limit por IP con [slowapi](https://github.com/laurentS/slowapi)**
   (60 peticiones/minuto): un usuario normal ni lo nota, pero evita que un cliente abusivo machaque el
   endpoint y tumbe el backend. La IP real se lee de `X-Forwarded-For` (uvicorn corre tras el proxy de Render).
+- La misma tarea diaria, además del recompute, **congela las predicciones del día** y actualiza el
+  **track record** en Vercel Blob (ver más abajo).
 
 ```
-backend/   FastAPI + modelo Poisson/GLM   → desplegado en Render
-frontend/  React + Vite + Tailwind        → desplegado en Vercel
-.github/workflows/daily-recompute.yml     → cron diario que dispara el recompute
+backend/   FastAPI + modelo Poisson/GLM                → desplegado en Render
+frontend/  React + Vite + Tailwind (+ api/track-record) → desplegado en Vercel
+scripts/   update-track-record.mjs                      → registro persistido en Vercel Blob
+.github/workflows/daily-recompute.yml                   → tarea diaria: recompute + track record
 ```
 
 ## El modelo en detalle
@@ -104,10 +110,29 @@ cálculo es idéntico.
    Con pocos partidos el peso es bajo y manda el prior; con muchos, manda lo observado. Así un 3-0
    puntual no convierte a nadie en favorito de la noche a la mañana. *(Ver `app/model/blend.py`.)*
 
-5. **Acierto / fallo.** En cada recálculo, para los partidos ya jugados se compara el favorito predicho
-   con el resultado real y se acumula un porcentaje de acierto, visible en la web.
+## Track record honesto
+
+Para que el porcentaje de acierto sea creíble (y no un "ya lo sabía yo"), no se recalcula a posteriori:
+
+- Cada predicción se **congela antes del saque** y no se vuelve a tocar — así no hay *sesgo de
+  retrovisor* (el modelo no se reescribe a sí mismo después de ver el resultado).
+- Cuando el partido termina, se compara esa predicción congelada con el resultado real (✓/✗) y se
+  acumula el **% de acierto**.
+- El registro se **persiste en Vercel Blob** (sobrevive a reinicios del backend), lo actualiza la tarea
+  diaria (`scripts/update-track-record.mjs`) y el frontend lo lee con una función serverless
+  (`frontend/api/track-record.js` → `/api/track-record`).
+
+Lo ves en la pestaña **Aciertos** de la web.
+
+## La web
+
+- **Predicciones** — todas las fases del Mundial (grupos → final) con un selector responsive; las
+  eliminatorias cuyos cruces aún no se conocen aparecen como "por definir" y se rellenan solas.
+- **Aciertos** — el track record: predicción congelada vs resultado, partido a partido.
+- **Cómo funciona** — explicación sencilla del modelo.
+
+Las visitas se miden con **Vercel Web Analytics** (sin cookies).
 
 ## Licencia
 
 MIT.
-</content>
