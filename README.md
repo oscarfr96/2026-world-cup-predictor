@@ -110,28 +110,6 @@ cálculo es idéntico.
    Con pocos partidos el peso es bajo y manda el prior; con muchos, manda lo observado. Así un 3-0
    puntual no convierte a nadie en favorito de la noche a la mañana. *(Ver `app/model/blend.py`.)*
 
-## Track record honesto
-
-Para que el porcentaje de acierto sea creíble (y no un "ya lo sabía yo"), no se recalcula a posteriori:
-
-- Cada predicción se **congela antes del saque** y no se vuelve a tocar — así no hay *sesgo de
-  retrovisor* (el modelo no se reescribe a sí mismo después de ver el resultado).
-- Cuando el partido termina, se compara esa predicción congelada con el resultado real (✓/✗) y se
-  acumula el **% de acierto**.
-- El registro se **persiste en Vercel Blob** (sobrevive a reinicios del backend), lo actualiza la tarea
-  diaria (`scripts/update-track-record.mjs`) y el frontend lo lee con una función serverless
-  (`frontend/api/track-record.js` → `/api/track-record`).
-
-Lo ves en la pestaña **Aciertos** de la web.
-
-## La web
-
-- **Predicciones** — todas las fases del Mundial (grupos → final) con un selector responsive; las
-  eliminatorias cuyos cruces aún no se conocen aparecen como "por definir" y se rellenan solas.
-- **Aciertos** — el track record: predicción congelada vs resultado, partido a partido.
-- **Cómo funciona** — explicación sencilla del modelo.
-
-Las visitas se miden con **Vercel Web Analytics** (sin cookies).
 
 ## Licencia
 
