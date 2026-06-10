@@ -55,11 +55,11 @@ export default function MatchCard({ match }) {
         )}
       </div>
 
-      {/* Equipos */}
+      {/* Equipos: nombre en negro, ganador previsto en verde */}
       <div className="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-[15px] font-bold">
-        <span className={winner === "home" ? "text-sky-600" : "text-slate-700"}>{home}</span>
+        <span className={winner === "home" ? "text-emerald-600" : "text-slate-900"}>{home}</span>
         <span className="text-xs font-normal text-slate-300">vs</span>
-        <span className={winner === "away" ? "text-rose-600" : "text-slate-700"}>{away}</span>
+        <span className={winner === "away" ? "text-emerald-600" : "text-slate-900"}>{away}</span>
       </div>
 
       {/* Favorito + marcador probable */}

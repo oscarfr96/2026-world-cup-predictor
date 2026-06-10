@@ -30,9 +30,9 @@ function TrackMatch({ m }) {
       </div>
 
       <div className="flex flex-wrap items-center gap-x-2 text-sm font-bold">
-        <span className={m.pred_winner === "home" ? "text-sky-600" : "text-slate-700"}>{m.home}</span>
+        <span className={m.pred_winner === "home" ? "text-emerald-600" : "text-slate-900"}>{m.home}</span>
         <span className="text-xs font-normal text-slate-300">vs</span>
-        <span className={m.pred_winner === "away" ? "text-rose-600" : "text-slate-700"}>{m.away}</span>
+        <span className={m.pred_winner === "away" ? "text-emerald-600" : "text-slate-900"}>{m.away}</span>
       </div>
 
       <div className="mt-1 text-xs text-slate-500">

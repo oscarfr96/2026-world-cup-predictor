@@ -42,11 +42,11 @@ function TodayMatch({ m }) {
       </div>
 
       <div className="flex items-baseline justify-between gap-2">
-        <span className={`font-bold ${m.winner === "home" ? "text-sky-600" : "text-slate-700"}`}>
+        <span className={`font-bold ${m.winner === "home" ? "text-emerald-600" : "text-slate-900"}`}>
           {m.home}
         </span>
         <span className="text-xs text-slate-300">vs</span>
-        <span className={`text-right font-bold ${m.winner === "away" ? "text-rose-600" : "text-slate-700"}`}>
+        <span className={`text-right font-bold ${m.winner === "away" ? "text-emerald-600" : "text-slate-900"}`}>
           {m.away}
         </span>
       </div>
