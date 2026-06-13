@@ -21,6 +21,9 @@ dist/
 backend/data/track-record.local.json
 backend/data/predictions.blob.local.json
 
+# --- Documento local de estudio (NO subir nunca al repo) ---
+oscar-wc-predictor-explicacion.html
+
 # --- Sistema operativo / editor ---
 .DS_Store
 Thumbs.db
