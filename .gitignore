@@ -17,8 +17,9 @@ node_modules/
 dist/
 .vite/
 
-# --- Fichero local de pruebas del track record (la versión real vive en Vercel Blob) ---
+# --- Ficheros locales de pruebas (la versión real vive en Vercel Blob) ---
 backend/data/track-record.local.json
+backend/data/predictions.blob.local.json
 
 # --- Sistema operativo / editor ---
 .DS_Store

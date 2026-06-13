@@ -64,14 +64,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Actualizar track record en Vercel Blob
+      - name: Publicar en Vercel Blob (predicciones + track record)
         env:
           API_URL: ${{ secrets.API_URL }}
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: |
           if [ -z "$BLOB_READ_WRITE_TOKEN" ]; then
-            echo "Falta el secret BLOB_READ_WRITE_TOKEN; se omite el track record." >&2
+            echo "Falta el secret BLOB_READ_WRITE_TOKEN; se omite la publicación en Blob." >&2
             exit 0
           fi
           npm install --no-save @vercel/blob@^2
+          # Snapshot de predicciones que sirve la web (durable, no depende del disco de Render).
+          node scripts/publish-predictions.mjs
+          # Track record honesto (predicciones congeladas antes del saque).
           node scripts/update-track-record.mjs
